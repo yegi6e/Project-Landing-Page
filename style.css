@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.logo {
+    filter: invert(100%) sepia(0%) saturate(3655%) hue-rotate(317deg) brightness(106%) contrast(90%);
+}
+
+.block {
+    flex: 1 1 100px;
+}
+
+.block.header {
+    background-color: #1f2937;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+    flex: 1;
+}
+
+.menu {
+    display: flex;
+
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    margin-left: 15px;
+}
+
+
+
+
+
+.hero {
+    background-color: #1f2937;
+    color: aliceblue;
+
+}
+
+.galary {
+    
+
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.cta {
+
+}
+
+.footer {
+    background-color: #1f2937;
+    color: aliceblue;
+}
+
