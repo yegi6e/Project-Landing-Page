@@ -120,11 +120,83 @@ h1 {
     border-radius: 15px;
 }
 
+/* --- quote --- */ 
 .quote {
     background-color: #e5e7eb;
+    display: flex;
+    padding: 150px 0px;
+    
+}
+.quote .text {
+    margin: auto;
+    flex-basis: 900px;
 }
 
-.cta {}
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+.quote-auther {
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* --- CTA ---*/ 
+
+.cta {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-block {
+    margin: auto;
+    background-color: #3882f6;
+    padding: 50px 50px;
+    border-radius: 15px;
+    margin: 150px 0px;
+    flex-basis: 1000px;
+    display: flex;
+    justify-content: center;
+
+}
+.cta-text {
+    flex-grow: 3;
+    padding-left: 20px;
+    color: #E5e7eb;
+}
+
+.cta-button {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-text-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.SiUp {
+    background-color: #3882f6;
+    padding: 0px 20px;
+    color: #E5e7eb;
+    border-radius: 15px;
+    border-color: #E5e7eb;
+    border-style: solid;
+}
+
+.SiUp:hover {
+    background-color: #4675c1;
+
+}
+
+/* 
+button {
+    box-shadow: none;
+    text-decoration: none;
+} */
 
 .footer {
     background-color: #1f2937;
