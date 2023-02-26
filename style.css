@@ -201,5 +201,10 @@ button {
 .footer {
     background-color: #1f2937;
     color: aliceblue;
+    display: flex;
+}
+
+.footer div {
+    margin: auto;
 }
 
