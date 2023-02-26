@@ -42,8 +42,6 @@ ul.menu {
     margin-left: 15px;
 }
 
-
-
 /* - hero -*/
 
 .hero {
@@ -51,18 +49,24 @@ ul.menu {
     color: aliceblue;
     display: flex;
     justify-content: center;
-    padding: 150px 0px;
+    padding: 150px 20px;
     flex-wrap: wrap;
+    gap: 20px;
+    
 }
 
 .hero-text {
     flex-basis: 480px;
-    padding-right: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 10px;
+    gap: 10px; 
 }
+
+img {
+    width: 100%;
+    height: auto;
+  }
 
 h1 {
     font-size: 48px;
@@ -78,7 +82,6 @@ h1 {
 
 .hero button {
     width: 100px;
-    margin-bottom: 10px;
     color: white;
     background-color: #3882f6;
     border: 0px;
@@ -102,7 +105,6 @@ h1 {
     justify-content: center;
     flex-basis: 50px;
     text-align: center;
-
 }
 .card {
     flex-basis: 200px;
@@ -159,7 +161,6 @@ h1 {
     flex-basis: 1000px;
     display: flex;
     justify-content: center;
-
 }
 .cta-text {
     flex-grow: 3;
@@ -191,12 +192,6 @@ h1 {
     background-color: #4675c1;
 
 }
-
-/* 
-button {
-    box-shadow: none;
-    text-decoration: none;
-} */
 
 .footer {
     background-color: #1f2937;
